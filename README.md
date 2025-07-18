@@ -1,7 +1,7 @@
 # Ecommerce Website - Educational Project
 
 This is a **frontend clone of a shopping website interface**, created purely for **educational purposes only**.  
-It is deployed at: [https://harshendram.github.io/MyntraClone/](https://harshendram.github.io/MyntraClone/)
+It is deployed at: [https://harshendram.github.io/Ecommerce-Store-Clone/](https://harshendram.github.io/Ecommerce-Store-Clone/)
 
 ---
 
