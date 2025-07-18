@@ -6,31 +6,37 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <div id="disclaimer-banner" style="
-    background-color: #fff3cd;
-    color: #856404;
-    padding: 15px 20px;
-    font-size: 14px;
-    font-family: sans-serif;
-    border-bottom: 1px solid #ffeeba;
+   <div id="disclaimer-banner" style="
+    background-color: #fff8db;
+    color: #7a5900;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #ffe8a1;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin: 16px auto;
+    max-width: 900px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     z-index: 999;
+    transition: opacity 0.4s ease, transform 0.4s ease;
 ">
-    <div>
-        <strong>DISCLAIMER:</strong> THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is <strong>NOT</strong> the official site of the company or brand identified on the page. The creator is <strong>NOT affiliated</strong> with the brand in any way. This project is for educational purposes only.
+    <div style="line-height: 1.5;">
+        <strong>DISCLAIMER:</strong> This page was created as a <strong>personal educational project</strong>. This is <strong>NOT</strong> the official website of any brand shown here, and the creator is <strong>NOT affiliated</strong> with them in any way.
     </div>
-    <button onclick="document.getElementById('disclaimer-banner').style.display='none'" style="
+    <button onclick="closeDisclaimer()" style="
         background: none;
         border: none;
         font-size: 18px;
         font-weight: bold;
-        color: #856404;
+        color: #7a5900;
         cursor: pointer;
-        margin-left: 15px;
-    ">&times;</button>
+        margin-left: 16px;
+        transition: transform 0.2s ease;
+    " onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">&times;</button>
 </div>
 
     <header >
